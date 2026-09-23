@@ -224,22 +224,20 @@ Layoffs-Data-Cleaning-and-EDA-in-MySQL/
 
 ## Screenshots
 
+### Yearly company rankings by layoffs.
+![Yearly company rankings by layoffs.](Screenshots/Yearly_Trend_By_Company.png)
+
+### Top 10 Companies by Layoffs
+
+![Top 10 Companies by Layoffs](Screenshots/top_10_companies_laid_off.png)
+
+### BY country analysis
+
+![Top 10 Companies by Layoffs](Screenshots/By_country_Analysis.png)
+
 ### Data Cleaning Output
 ![Data Cleaning](Screenshots/Data_cleaning.png)
 
-### Top Companies by Layoffs
-
-_Add screenshot here_
-
-### Yearly Layoff Trends
-
-_Add screenshot here_
-
-### Industry Analysis
-
-_Add screenshot here_
-
----
 
 ## Learning Outcomes
 
