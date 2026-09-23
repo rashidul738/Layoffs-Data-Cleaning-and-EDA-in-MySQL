@@ -225,8 +225,7 @@ Layoffs-Data-Cleaning-and-EDA-in-MySQL/
 ## Screenshots
 
 ### Data Cleaning Output
-
-Screenshots/Data cleaning.png
+![Data Cleaning](Screenshots/Data cleaning.png)
 
 ### Top Companies by Layoffs
 
