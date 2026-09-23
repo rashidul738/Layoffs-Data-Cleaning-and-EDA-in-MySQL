@@ -111,6 +111,28 @@ The following business questions were explored:
 
 ## Sample SQL Queries
 
+### Company rankings by layoffs year.
+```sql
+WITH Company_Year (company, years, total_laid_off) AS 
+(
+	SELECT company, YEAR(`date`), SUM(total_laid_off) AS total_laid_off
+	FROM layoffs_staging2
+	GROUP BY company, YEAR(`date`)
+),
+Company_Rank_Year AS
+(
+SELECT *,
+DENSE_RANK() OVER(PARTITION BY years ORDER BY total_laid_off DESC) AS Ranking
+FROM Company_Year
+WHERE years IS NOT NULL
+)
+SELECT *
+FROM Company_Rank_Year
+WHERE Ranking <= 3
+ORDER BY years DESC;
+
+```
+
 ### Top 10 Companies by Total Layoffs
 
 ```sql
@@ -204,7 +226,7 @@ Layoffs-Data-Cleaning-and-EDA-in-MySQL/
 
 ### Data Cleaning Output
 
-_Add screenshot here_
+Screenshots/Data cleaning.png
 
 ### Top Companies by Layoffs
 
