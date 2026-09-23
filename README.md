@@ -212,10 +212,10 @@ Layoffs-Data-Cleaning-and-EDA-in-MySQL/
 │   └── exploratory_data_analysis.sql
 │
 ├── Screenshots/
-│   ├── data_cleaning_results.png
-│   ├── top_companies.png
-│   ├── industry_analysis.png
-│   └── yearly_trends.png
+│   ├── Yearly_Trend_By_Company.png
+│   ├── top_10_companies_laid_off.png
+│   ├── By_country_Analysis.png
+│   └── Data_cleaning_output.png
 │
 └── README.md
 ```
