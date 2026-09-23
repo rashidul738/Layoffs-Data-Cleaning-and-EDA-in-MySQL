@@ -208,8 +208,8 @@ Layoffs-Data-Cleaning-and-EDA-in-MySQL/
 │   └── layoffs.csv
 │
 ├── SQL Scripts/
-│   ├── data_cleaning.sql
-│   └── exploratory_data_analysis.sql
+│   ├── MySQL_Data_Cleaning.sql
+│   └── MySQL_Exploratory_Data_Analysis.sql
 │
 ├── Screenshots/
 │   ├── Yearly_Trend_By_Company.png
